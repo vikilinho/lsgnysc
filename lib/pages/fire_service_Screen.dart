@@ -12,7 +12,7 @@ class _FireScreenState extends State<FireScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Nearby Hospitals'),
+          title: Text('Nearby Fire Service Stations'),
         ),
         body: ListView(
           children: [
@@ -28,7 +28,7 @@ class _FireScreenState extends State<FireScreen> {
                     Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Text(
-                        "South Shore Women's and Children's Hospital Lagos.",
+                        "Lagos State Fire Service Station Alausa.",
                         style: GoogleFonts.mulish(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -37,17 +37,37 @@ class _FireScreenState extends State<FireScreen> {
                     ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child:
-                          Image(image: AssetImage('images/shore_hospital.png')),
+                      child: Image(image: AssetImage('images/fire.png')),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Text(
-                        "Address: Plot 1717 Mike Adenuga Cl, Victoria Island 106104, Lagos",
+                        "The Secretariat, Governor's Rd, Alausa 101233, Ikeja",
                         style: GoogleFonts.mulish(
                           fontSize: 18,
                           fontStyle: FontStyle.italic,
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.phone,
+                            color: Colors.green,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Text(
+                              "0803 323 5891",
+                              style: GoogleFonts.mulish(
+                                fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],
@@ -63,7 +83,7 @@ class _FireScreenState extends State<FireScreen> {
                     Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Text(
-                        "St. Nicholas Hospital - LFZ Ibeju Lekki.",
+                        "Ikeja Fire Station.",
                         style: GoogleFonts.mulish(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -77,11 +97,32 @@ class _FireScreenState extends State<FireScreen> {
                     Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Text(
-                        "Address: Lagos Free Trade Zone, Lekki Free Trade Zone Road, Lagos, 105101, Lagos",
+                        "Powa Market, 57 Mobolaji Bank Anthony Way, Ikeja 101233, Lagos",
                         style: GoogleFonts.mulish(
                           fontSize: 18,
                           fontStyle: FontStyle.italic,
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.phone,
+                            color: Colors.green,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Text(
+                              "0803 221 9746",
+                              style: GoogleFonts.mulish(
+                                fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],

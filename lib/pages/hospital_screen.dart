@@ -50,6 +50,27 @@ class _HospitalScreenState extends State<HospitalScreen> {
                         ),
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.phone,
+                            color: Colors.green,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Text(
+                              "0807 461 7023",
+                              style: GoogleFonts.mulish(
+                                fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -82,6 +103,27 @@ class _HospitalScreenState extends State<HospitalScreen> {
                           fontSize: 18,
                           fontStyle: FontStyle.italic,
                         ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.phone,
+                            color: Colors.green,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Text(
+                              "0802 290 8484",
+                              style: GoogleFonts.mulish(
+                                fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],

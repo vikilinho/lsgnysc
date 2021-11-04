@@ -33,18 +33,20 @@ class _SplashScreenState extends State<SplashScreen> {
                 style: GoogleFonts.mulish(
                   fontSize: 40,
                   fontWeight: FontWeight.w600,
-                  color: Colors.teal,
+                  color: Colors.green,
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Text(
-                "This is the Lagos state goverment NYSC portal.\n",
-                style: GoogleFonts.mulish(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w400,
-                  color: Colors.black,
+            Center(
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Text(
+                  "This is the Lagos state goverment NYSC portal.\n",
+                  style: GoogleFonts.mulish(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w400,
+                    color: Colors.black,
+                  ),
                 ),
               ),
             ),

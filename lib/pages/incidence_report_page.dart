@@ -22,43 +22,111 @@ class _IncidenceReportState extends State<IncidenceReport> {
       ),
       body: Center(
           child: ListView(children: [
-        Column(
-          children: [
-            SizedBox(height: 20),
-            Text(
-              'Incidents you reported',
-              style: GoogleFonts.mulish(
-                fontSize: 25,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Card(
-                elevation: 5,
-                child: ListTile(
-                  leading: Image(
-                    image: AssetImage("images/fight.jpeg"),
+        Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: Card(
+            elevation: 5,
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Text(
+                    "Domestic Abuse",
+                    style: GoogleFonts.mulish(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                  title: Text('Domestic Abuse'),
-                  subtitle: Text('Man beats wife to stupor.'),
                 ),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Card(
-                elevation: 5,
-                child: ListTile(
-                  leading: Image(
-                    image: AssetImage("images/bridge.jpeg"),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Image(image: AssetImage('images/fight.jpeg')),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Text(
+                    "Man beats wife to stupor.",
+                    style: GoogleFonts.mulish(
+                      fontSize: 18,
+                      fontStyle: FontStyle.italic,
+                    ),
                   ),
-                  title: Text('Bridge Collapsed'),
-                  subtitle: Text('Due to heavy rainfall, bridge collapsed.'),
                 ),
-              ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: TextButton(
+                            onPressed: () {},
+                            child: Text(
+                              "View Detail",
+                              style: GoogleFonts.mulish(
+                                fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          )),
+                    ],
+                  ),
+                ),
+              ],
             ),
-          ],
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: Card(
+            elevation: 5,
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Text(
+                    "Bridge Collapsed.",
+                    style: GoogleFonts.mulish(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Image(image: AssetImage('images/bridge.jpeg')),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Text(
+                    "Due to heavy rainfall, Somore bridge collapsed.",
+                    style: GoogleFonts.mulish(
+                      fontSize: 18,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: TextButton(
+                            onPressed: () {},
+                            child: Text(
+                              "View Detail",
+                              style: GoogleFonts.mulish(
+                                fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          )),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
         ),
       ])),
     );
