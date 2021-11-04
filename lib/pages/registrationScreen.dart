@@ -41,6 +41,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     labelText: "Full Name",
                   )),
                 ),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8, right: 8),
                   child: TextFormField(
@@ -50,6 +53,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     hintStyle: GoogleFonts.mulish(),
                     labelText: "NYSC NO.",
                   )),
+                ),
+                SizedBox(
+                  height: 10,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8, right: 8),
@@ -61,6 +67,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     labelText: "Phone Number",
                   )),
                 ),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8, right: 8),
                   child: TextFormField(
@@ -70,6 +79,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     hintStyle: GoogleFonts.mulish(),
                     labelText: "Home Address",
                   )),
+                ),
+                SizedBox(
+                  height: 10,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8, right: 8),
@@ -81,6 +93,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     labelText: "State of Origin",
                   )),
                 ),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8, right: 8),
                   child: TextFormField(
@@ -90,6 +105,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     hintStyle: GoogleFonts.mulish(),
                     labelText: "Age",
                   )),
+                ),
+                SizedBox(
+                  height: 10,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8, right: 8),
@@ -101,6 +119,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     labelText: "Sex",
                   )),
                 ),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8, right: 8),
                   child: TextFormField(
@@ -110,6 +131,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     hintStyle: GoogleFonts.mulish(),
                     labelText: "Institution of Study",
                   )),
+                ),
+                SizedBox(
+                  height: 10,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8, right: 8),
