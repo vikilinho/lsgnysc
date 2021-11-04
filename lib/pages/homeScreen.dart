@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Text(
               'Your Dashboard',
               style: GoogleFonts.mulish(
-                fontSize: 30,
+                fontSize: 25,
                 fontWeight: FontWeight.w500,
                 color: Colors.black,
               ),
@@ -59,8 +59,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Text(
                         'Name:',
                         style: GoogleFonts.mulish(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w400,
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
                           color: Colors.white,
                         ),
                       ),
@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Text(
                       'Victoria David',
                       style: GoogleFonts.mulish(
-                        fontSize: 20,
+                        fontSize: 16,
                         fontWeight: FontWeight.w400,
                         color: Colors.white,
                       ),
@@ -85,8 +85,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Text(
                         'Batch',
                         style: GoogleFonts.mulish(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w400,
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
                           color: Colors.white,
                         ),
                       ),
@@ -97,7 +97,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Text(
                       'A 2021',
                       style: GoogleFonts.mulish(
-                        fontSize: 20,
+                        fontSize: 16,
                         fontWeight: FontWeight.w400,
                         color: Colors.white,
                       ),
@@ -111,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Text(
                         'Phone Number:',
                         style: GoogleFonts.mulish(
-                          fontSize: 20,
+                          fontSize: 18,
                           fontWeight: FontWeight.w400,
                           color: Colors.white,
                         ),
@@ -123,7 +123,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Text(
                       '08079985402',
                       style: GoogleFonts.mulish(
-                        fontSize: 20,
+                        fontSize: 16,
                         fontWeight: FontWeight.w400,
                         color: Colors.white,
                       ),
@@ -137,8 +137,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Text(
                         'Gender:',
                         style: GoogleFonts.mulish(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w400,
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
                           color: Colors.white,
                         ),
                       ),
@@ -149,7 +149,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Text(
                       'Female',
                       style: GoogleFonts.mulish(
-                        fontSize: 20,
+                        fontSize: 16,
                         fontWeight: FontWeight.w400,
                         color: Colors.white,
                       ),
@@ -161,10 +161,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        'Call-up Number:',
+                        'Callup Number:',
                         style: GoogleFonts.mulish(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w400,
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
                           color: Colors.white,
                         ),
                       ),
@@ -175,7 +175,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Text(
                       'NYSC/IFE/2021/00011',
                       style: GoogleFonts.mulish(
-                        fontSize: 20,
+                        fontSize: 16,
                         fontWeight: FontWeight.w400,
                         color: Colors.white,
                       ),
@@ -189,8 +189,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Text(
                         'State Code:',
                         style: GoogleFonts.mulish(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w400,
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
                           color: Colors.white,
                         ),
                       ),
@@ -201,7 +201,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Text(
                       'LG/20A/0191',
                       style: GoogleFonts.mulish(
-                        fontSize: 20,
+                        fontSize: 16,
                         fontWeight: FontWeight.w400,
                         color: Colors.white,
                       ),

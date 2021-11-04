@@ -61,7 +61,7 @@ class _IncidenceReportState extends State<IncidenceReport> {
                           child: TextButton(
                             onPressed: () {},
                             child: Text(
-                              "View Detail",
+                              "View Full Report.",
                               style: GoogleFonts.mulish(
                                 fontSize: 18,
                                 fontStyle: FontStyle.italic,
@@ -95,13 +95,15 @@ class _IncidenceReportState extends State<IncidenceReport> {
                   padding: const EdgeInsets.all(8.0),
                   child: Image(image: AssetImage('images/bridge.jpeg')),
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Text(
-                    "Due to heavy rainfall, Somore bridge collapsed.",
-                    style: GoogleFonts.mulish(
-                      fontSize: 18,
-                      fontStyle: FontStyle.italic,
+                Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(12.0),
+                    child: Text(
+                      "Somore bridge collapsed.",
+                      style: GoogleFonts.mulish(
+                        fontSize: 18,
+                        fontStyle: FontStyle.italic,
+                      ),
                     ),
                   ),
                 ),
@@ -114,7 +116,7 @@ class _IncidenceReportState extends State<IncidenceReport> {
                           child: TextButton(
                             onPressed: () {},
                             child: Text(
-                              "View Detail",
+                              "View Full Report.",
                               style: GoogleFonts.mulish(
                                 fontSize: 18,
                                 fontStyle: FontStyle.italic,

@@ -25,146 +25,119 @@ class _NewsScreenState extends State<NewsScreen> {
                 ),
               ),
               Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Card(
-                    child: Container(
-                      height: MediaQuery.of(context).size.height * 0.2,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(30),
-                      ),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Row(
-                            children: [
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Text(
-                                    "Death toll climbs to 22 in Nigeria building collapse.",
-                                    style: GoogleFonts.mulish(
-                                      fontSize: 16,
-                                      fontStyle: FontStyle.italic,
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Image.asset(
-                                    'images/b.jpeg',
-                                    fit: BoxFit.cover,
-                                    height: MediaQuery.of(context).size.height *
-                                        0.15,
-                                  ),
-                                ),
-                              ),
-                            ],
+                padding: const EdgeInsets.all(12.0),
+                child: Card(
+                  elevation: 5,
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Text(
+                          "Death toll climbs to 22 in Nigeria building collapse.",
+                          style: GoogleFonts.mulish(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
                           ),
-                          Expanded(
-                              child: TextButton(
-                                  onPressed: () {}, child: Text("Read More")))
-                        ],
+                        ),
                       ),
-                    ),
-                  )),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Image(image: AssetImage('images/b.jpeg')),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Text(
+                            "Read More",
+                            style: GoogleFonts.mulish(
+                                fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.green),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
               Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Card(
-                    child: Container(
-                      height: MediaQuery.of(context).size.height * 0.2,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(30),
-                      ),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Row(
-                            children: [
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Text(
-                                    "Sanwo-Olu suspends LABSCA GM indefinitely.",
-                                    style: GoogleFonts.mulish(
-                                      fontSize: 16,
-                                      fontStyle: FontStyle.italic,
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Image.asset(
-                                    'images/s.jpeg',
-                                    fit: BoxFit.cover,
-                                    height: MediaQuery.of(context).size.height *
-                                        0.15,
-                                  ),
-                                ),
-                              ),
-                            ],
+                padding: const EdgeInsets.all(12.0),
+                child: Card(
+                  elevation: 5,
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Text(
+                          "Sanwo-Olu suspends LABSCA GM indefinitely.",
+                          style: GoogleFonts.mulish(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
                           ),
-                          Expanded(
-                              child: TextButton(
-                                  onPressed: () {}, child: Text("Read More")))
-                        ],
+                        ),
                       ),
-                    ),
-                  )),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Image(image: AssetImage('images/s.jpeg')),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Text(
+                            "Read More",
+                            style: GoogleFonts.mulish(
+                                fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.green),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
               Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Card(
-                    child: Container(
-                      height: MediaQuery.of(context).size.height * 0.2,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(30),
-                      ),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Row(
-                            children: [
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Text(
-                                    "NYSC receives first generation headdress.",
-                                    style: GoogleFonts.mulish(
-                                      fontSize: 16,
-                                      fontStyle: FontStyle.italic,
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Image.asset(
-                                    'images/nysc.jpeg',
-                                    fit: BoxFit.cover,
-                                    height: MediaQuery.of(context).size.height *
-                                        0.15,
-                                  ),
-                                ),
-                              ),
-                            ],
+                padding: const EdgeInsets.all(12.0),
+                child: Card(
+                  elevation: 5,
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Text(
+                          "NYSC receives first generation headdress.",
+                          style: GoogleFonts.mulish(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
                           ),
-                          Expanded(
-                              child: TextButton(
-                                  onPressed: () {}, child: Text("Read More")))
-                        ],
+                        ),
                       ),
-                    ),
-                  )),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Image(image: AssetImage('images/nysc.jpeg')),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Text(
+                            "Read More",
+                            style: GoogleFonts.mulish(
+                                fontSize: 18,
+                                fontStyle: FontStyle.italic,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.green),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ],

@@ -38,8 +38,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'Local Government Clearance',
                 style: GoogleFonts.mulish(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(Icons.arrow_right),
@@ -56,8 +56,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'Course Correction',
                 style: GoogleFonts.mulish(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(Icons.arrow_right),
@@ -74,8 +74,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'PPA Letter',
                 style: GoogleFonts.mulish(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(Icons.arrow_right),
@@ -92,8 +92,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'Update Profile',
                 style: GoogleFonts.mulish(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(Icons.arrow_right),
@@ -110,8 +110,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'Disciplinary Case',
                 style: GoogleFonts.mulish(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(Icons.arrow_right),
@@ -128,8 +128,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'Change Password',
                 style: GoogleFonts.mulish(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(Icons.arrow_right),
@@ -146,8 +146,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'Log Out',
                 style: GoogleFonts.mulish(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(

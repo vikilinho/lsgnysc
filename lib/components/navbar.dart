@@ -20,7 +20,7 @@ class NavDrawer extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(
-                  'Your Quick Guide',
+                  'Your Quick Directory',
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 25,
@@ -31,13 +31,14 @@ class NavDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.local_hospital,
-                color: Colors.black,
+                color: Colors.red,
               ),
               title: Text(
                 'Nearby Hospital',
                 style: GoogleFonts.mulish(
-                  fontSize: 20,
+                  fontSize: 16,
                   color: Colors.black,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
               onTap: () => Navigator.push(
@@ -47,14 +48,15 @@ class NavDrawer extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(
-                Icons.local_police,
-                color: Colors.black,
+                Icons.local_police_rounded,
+                color: Colors.blue,
               ),
               title: Text(
                 'Nearby Police Station',
                 style: GoogleFonts.mulish(
-                  fontSize: 20,
+                  fontSize: 16,
                   color: Colors.black,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
               onTap: () => Navigator.push(
@@ -65,13 +67,14 @@ class NavDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.local_fire_department,
-                color: Colors.black,
+                color: Colors.red,
               ),
               title: Text(
                 'Fire Service Stations',
                 style: GoogleFonts.mulish(
                   color: Colors.black,
-                  fontSize: 20,
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
               onTap: () => Navigator.push(
