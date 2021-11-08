@@ -27,7 +27,9 @@ class _NavigationScreenState extends State<NavigationScreen> {
         children: [
           HomeScreen(),
           ReportScreen(),
-          NewsScreen(),
+          NewsScreen(
+            news: [],
+          ),
           ProfileScreen(),
         ],
       ),
