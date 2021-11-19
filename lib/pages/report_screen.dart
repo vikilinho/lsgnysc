@@ -28,7 +28,7 @@ class _ReportScreenState extends State<ReportScreen> {
               child: Text(
                 "View and submit your reports.",
                 style: GoogleFonts.mulish(
-                  fontSize: 25,
+                  fontSize: 20,
                   fontWeight: FontWeight.w600,
                 ),
               ),
@@ -41,7 +41,7 @@ class _ReportScreenState extends State<ReportScreen> {
                 'Monthly CDS Report',
                 style: GoogleFonts.mulish(
                   fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(Icons.arrow_right),
@@ -59,7 +59,7 @@ class _ReportScreenState extends State<ReportScreen> {
                 'Incidence Report',
                 style: GoogleFonts.mulish(
                   fontSize: 20,
-                  fontWeight: FontWeight.w600,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(Icons.arrow_right),

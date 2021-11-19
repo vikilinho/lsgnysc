@@ -69,33 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 10,
                     ),
                     Text(
-                      'Victoria David',
-                      style: GoogleFonts.mulish(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.white,
-                      ),
-                    ),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        'Batch',
-                        style: GoogleFonts.mulish(
-                          fontSize: 18,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      'A 2021',
+                      'David Victoria',
                       style: GoogleFonts.mulish(
                         fontSize: 16,
                         fontWeight: FontWeight.w400,
@@ -135,7 +109,33 @@ class _HomeScreenState extends State<HomeScreen> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        'Gender:',
+                        'Home Address',
+                        style: GoogleFonts.mulish(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      'No. 12 fast lane, VI, Lagos',
+                      style: GoogleFonts.mulish(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'Sex:',
                         style: GoogleFonts.mulish(
                           fontSize: 18,
                           fontWeight: FontWeight.w600,
@@ -161,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        'Callup Number:',
+                        'Course of Study:',
                         style: GoogleFonts.mulish(
                           fontSize: 18,
                           fontWeight: FontWeight.w600,
@@ -173,7 +173,33 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 10,
                     ),
                     Text(
-                      'NYSC/IFE/2021/00011',
+                      'Botany',
+                      style: GoogleFonts.mulish(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'State of Origin:',
+                        style: GoogleFonts.mulish(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      'Ekiti',
                       style: GoogleFonts.mulish(
                         fontSize: 16,
                         fontWeight: FontWeight.w400,
@@ -199,7 +225,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 10,
                     ),
                     Text(
-                      'LG/20A/0191',
+                      'LA/20A/0191',
                       style: GoogleFonts.mulish(
                         fontSize: 16,
                         fontWeight: FontWeight.w400,
@@ -211,14 +237,16 @@ class _HomeScreenState extends State<HomeScreen> {
               ]),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.all(12.0),
-            child: Text(
-              "Ensure all your documents are correct before your final clearance.",
-              style: GoogleFonts.mulish(
-                fontSize: 18,
-                fontWeight: FontWeight.w400,
-                color: Colors.red,
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Text(
+                "Ensure all your documents are correct before your final clearance.",
+                style: GoogleFonts.mulish(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
+                  color: Colors.red,
+                ),
               ),
             ),
           ),

@@ -36,7 +36,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 label: Text('Change Profile Picture')),
             ListTile(
               title: Text(
-                'Local Government Clearance',
+                'Ministry of health',
                 style: GoogleFonts.mulish(
                   fontSize: 18,
                   fontWeight: FontWeight.w400,
@@ -54,7 +54,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             ),
             ListTile(
               title: Text(
-                'Course Correction',
+                'BVN: 20001222221',
                 style: GoogleFonts.mulish(
                   fontSize: 18,
                   fontWeight: FontWeight.w400,
