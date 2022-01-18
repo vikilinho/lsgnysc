@@ -39,7 +39,7 @@ class _CDSReportPageState extends State<CDSReportPage> {
                   child: Column(
                     children: [
                       Text(
-                        'CDS Report for January 2021',
+                        'Clearance letter for January 2021',
                         style: GoogleFonts.mulish(
                           fontSize: 20,
                           color: Colors.white,
@@ -137,7 +137,7 @@ class _CDSReportPageState extends State<CDSReportPage> {
             "Upload your signed and stamped clearance letter.",
             textAlign: TextAlign.center,
             style: GoogleFonts.mulish(
-              fontSize: 20,
+              fontSize: 16,
               color: Colors.black,
               fontWeight: FontWeight.w600,
             ),
