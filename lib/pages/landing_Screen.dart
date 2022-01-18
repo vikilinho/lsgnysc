@@ -41,7 +41,8 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
-                  "This is the Lagos State Public Service Corps Members.\n(NYSC) Portal",
+                  "This is the Lagos State Public Service Corps Members (NYSC) Portal.",
+                  textAlign: TextAlign.center,
                   style: GoogleFonts.mulish(
                     fontSize: 20,
                     fontWeight: FontWeight.w400,
@@ -49,6 +50,9 @@ class _SplashScreenState extends State<SplashScreen> {
                   ),
                 ),
               ),
+            ),
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.05,
             ),
             Container(
               width: MediaQuery.of(context).size.width * 0.9,
