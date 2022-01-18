@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
-                  "This is the Lagos state goverment NYSC portal.\n",
+                  "This is the Lagos State Public Service Corps Members.\n(NYSC) Portal",
                   style: GoogleFonts.mulish(
                     fontSize: 20,
                     fontWeight: FontWeight.w400,

@@ -38,13 +38,14 @@ class _ReportScreenState extends State<ReportScreen> {
             ),
             ListTile(
               title: Text(
-                'Monthly CDS Report',
+                'Monthly Clearance.',
                 style: GoogleFonts.mulish(
                   fontSize: 20,
                   fontWeight: FontWeight.w400,
                 ),
               ),
               leading: Icon(Icons.arrow_right),
+              hoverColor: Colors.green,
               onTap: () {
                 Navigator.push(
                   context,

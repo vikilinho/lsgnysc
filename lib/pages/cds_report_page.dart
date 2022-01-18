@@ -10,11 +10,6 @@ class _CDSReportPageState extends State<CDSReportPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: FloatingActionButton(
-        isExtended: true,
-        onPressed: () {},
-        child: Icon(Icons.add),
-      ),
       appBar: AppBar(
         title: Text('Monthly CDS Report'),
       ),
@@ -133,6 +128,26 @@ class _CDSReportPageState extends State<CDSReportPage> {
             )
           ],
         ),
+        SizedBox(
+          height: 10,
+        ),
+        Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: Text(
+            "Upload your signed and stamped Clearance.",
+            textAlign: TextAlign.center,
+            style: GoogleFonts.mulish(
+              fontSize: 20,
+              color: Colors.black,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ),
+        ElevatedButton(
+          style: ButtonStyle().fixedSize!(width: double.infinity),
+          onPressed: () {},
+          child: Text('Upload'),
+        )
       ])),
     );
   }
