@@ -64,8 +64,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: TextFormField(
                           decoration: InputDecoration(
                         border: OutlineInputBorder(),
-                        labelText: 'Email',
-                        hintText: 'Enter your email',
+                        labelText: 'State Code',
+                        hintText: 'Enter your state code',
                       )),
                     ),
                     SizedBox(
@@ -76,6 +76,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: TextFormField(
                           obscureText: true,
                           decoration: InputDecoration(
+                            suffixIcon: Icon(Icons.visibility),
                             border: OutlineInputBorder(),
                             labelText: 'Password',
                             hintText: 'Enter your password',
