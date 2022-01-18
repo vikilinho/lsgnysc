@@ -63,7 +63,7 @@ class _CDSReportPageState extends State<CDSReportPage> {
                   child: Column(
                     children: [
                       Text(
-                        'CDS Report for Febuary 2021',
+                        'Clearance letter for Febuary 2021',
                         style: GoogleFonts.mulish(
                           fontSize: 20,
                           color: Colors.white,
@@ -87,7 +87,7 @@ class _CDSReportPageState extends State<CDSReportPage> {
                   child: Column(
                     children: [
                       Text(
-                        'CDS Report for March 2021',
+                        'Clearance letter for March 2021',
                         style: GoogleFonts.mulish(
                           fontSize: 20,
                           color: Colors.white,
@@ -111,7 +111,7 @@ class _CDSReportPageState extends State<CDSReportPage> {
                   child: Column(
                     children: [
                       Text(
-                        'CDS Report for April 2021',
+                        'Clearance letter for April 2021',
                         style: GoogleFonts.mulish(
                           fontSize: 20,
                           color: Colors.white,
@@ -134,7 +134,7 @@ class _CDSReportPageState extends State<CDSReportPage> {
         Padding(
           padding: const EdgeInsets.all(12.0),
           child: Text(
-            "Upload your signed and stamped Clearance.",
+            "Upload your signed and stamped clearance letter.",
             textAlign: TextAlign.center,
             style: GoogleFonts.mulish(
               fontSize: 20,
@@ -143,11 +143,35 @@ class _CDSReportPageState extends State<CDSReportPage> {
             ),
           ),
         ),
-        ElevatedButton(
-          style: ButtonStyle().fixedSize!(width: double.infinity),
-          onPressed: () {},
-          child: Text('Upload'),
-        )
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: ButtonTheme(
+              minWidth: MediaQuery.of(context).size.width * 0.3,
+              height: 50,
+              // ignore: deprecated_member_use
+              child: RaisedButton(
+                  color: Colors.green,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  onPressed: () async {
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(
+                    //       builder: (context) => NavigationScreen()),
+                    // );
+                  },
+                  child: Text(
+                    "Upload",
+                    style: GoogleFonts.mulish(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.w400),
+                  )),
+            ),
+          ),
+        ),
       ])),
     );
   }
