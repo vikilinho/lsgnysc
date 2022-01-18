@@ -15,6 +15,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   TextEditingController _confirmPasswordController = TextEditingController();
   TextEditingController _nameController = TextEditingController();
   TextEditingController _phoneController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,9 +37,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   child: TextFormField(
                       decoration: InputDecoration(
                     border: OutlineInputBorder(),
-                    hintText: "Victor Ogundola",
+                    hintText: "Ogundola Victor",
                     hintStyle: GoogleFonts.mulish(),
-                    labelText: "Full Name",
+                    labelText: "Full Name(surname first)",
                   )),
                 ),
                 SizedBox(
@@ -88,6 +89,19 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   child: TextFormField(
                       decoration: InputDecoration(
                     border: OutlineInputBorder(),
+                    hintText: "dvicxy@gmail.com",
+                    hintStyle: GoogleFonts.mulish(),
+                    labelText: "Email Address",
+                  )),
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 8, right: 8),
+                  child: TextFormField(
+                      decoration: InputDecoration(
+                    border: OutlineInputBorder(),
                     hintText: "Ekiti",
                     hintStyle: GoogleFonts.mulish(),
                     labelText: "State of Origin",
@@ -101,35 +115,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   child: TextFormField(
                       decoration: InputDecoration(
                     border: OutlineInputBorder(),
-                    hintText: "25",
-                    hintStyle: GoogleFonts.mulish(),
-                    labelText: "Age",
-                  )),
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 8, right: 8),
-                  child: TextFormField(
-                      decoration: InputDecoration(
-                    border: OutlineInputBorder(),
                     hintText: "Male",
                     hintStyle: GoogleFonts.mulish(),
                     labelText: "Sex",
-                  )),
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 8, right: 8),
-                  child: TextFormField(
-                      decoration: InputDecoration(
-                    border: OutlineInputBorder(),
-                    hintText: "Obafemi Awolowo University",
-                    hintStyle: GoogleFonts.mulish(),
-                    labelText: "Institution of Study",
                   )),
                 ),
                 SizedBox(
