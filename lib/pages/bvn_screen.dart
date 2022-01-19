@@ -16,12 +16,38 @@ class _BvnScreenState extends State<BvnScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              "Federal Ministry of Education",
-              style: GoogleFonts.mulish(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Text(
+                "Federal Ministry of Education",
+                style: GoogleFonts.mulish(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Text(
+                "Fill your BVN Details to complete your registration",
+                style: GoogleFonts.mulish(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 8, right: 8),
+              child: TextFormField(
+                  decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                hintText: "BVN Number",
+                hintStyle: GoogleFonts.mulish(),
+                labelText: "12345678912",
+              )),
             ),
           ],
         ),
