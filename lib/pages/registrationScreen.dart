@@ -156,12 +156,20 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                                       builder: (context) => NavigationScreen()),
                                 );
                               },
-                              child: Text(
-                                "Create Account",
-                                style: GoogleFonts.mulish(
-                                    color: Colors.white,
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.w400),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    "Proceed",
+                                    style: GoogleFonts.mulish(
+                                        color: Colors.white,
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.w400),
+                                  ),
+                                  Icon(Icons.arrow_forward,
+                                      color: Colors.white),
+                                ],
                               )),
                         ),
                       ),
