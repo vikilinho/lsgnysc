@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lsgnysc/pages/bvn_screen.dart';
 import 'package:lsgnysc/pages/login_screen.dart';
 import 'package:lsgnysc/pages/navigation_screen.dart';
 
@@ -153,7 +154,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => NavigationScreen()),
+                                      builder: (context) => BvnScreen()),
                                 );
                               },
                               child: Row(
