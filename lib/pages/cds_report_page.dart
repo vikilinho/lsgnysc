@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lsgnysc/pages/navigation_screen.dart';
 
 class CDSReportPage extends StatefulWidget {
   @override
@@ -143,33 +144,30 @@ class _CDSReportPageState extends State<CDSReportPage> {
             ),
           ),
         ),
-        Expanded(
-          child: Padding(
-            padding: const EdgeInsets.all(12.0),
-            child: ButtonTheme(
-              minWidth: MediaQuery.of(context).size.width * 0.3,
-              height: 50,
-              // ignore: deprecated_member_use
-              child: RaisedButton(
-                  color: Colors.green,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  onPressed: () async {
-                    // Navigator.push(
-                    //   context,
-                    //   MaterialPageRoute(
-                    //       builder: (context) => NavigationScreen()),
-                    // );
-                  },
-                  child: Text(
-                    "Upload",
-                    style: GoogleFonts.mulish(
-                        color: Colors.white,
-                        fontSize: 20,
-                        fontWeight: FontWeight.w400),
-                  )),
-            ),
+        Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: ButtonTheme(
+            minWidth: MediaQuery.of(context).size.width * 0.3,
+            height: 50,
+            // ignore: deprecated_member_use
+            child: RaisedButton(
+                color: Colors.green,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                onPressed: () async {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => NavigationScreen()),
+                  );
+                },
+                child: Text(
+                  "Upload",
+                  style: GoogleFonts.mulish(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w400),
+                )),
           ),
         ),
       ])),
