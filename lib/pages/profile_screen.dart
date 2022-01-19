@@ -36,9 +36,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 label: Text('Change Profile Picture')),
             ListTile(
               title: Text(
-                'Ministry of health',
+                'Ministry of Special Duties & Inter-Governmental Relations',
                 style: GoogleFonts.mulish(
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.w400,
                 ),
               ),
@@ -56,7 +56,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'BVN: 20001222221',
                 style: GoogleFonts.mulish(
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.w400,
                 ),
               ),
@@ -74,7 +74,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'PPA Letter',
                 style: GoogleFonts.mulish(
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.w400,
                 ),
               ),
@@ -92,7 +92,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'Update Profile',
                 style: GoogleFonts.mulish(
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.w400,
                 ),
               ),
@@ -110,7 +110,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'Disciplinary Case',
                 style: GoogleFonts.mulish(
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.w400,
                 ),
               ),
@@ -128,7 +128,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(
                 'Change Password',
                 style: GoogleFonts.mulish(
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.w400,
                 ),
               ),
