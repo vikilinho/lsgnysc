@@ -16,11 +16,15 @@ class NavDrawer extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: DrawerHeader(
                 decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage('images/logony.png'),
+                  ),
                   color: Colors.green,
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(
                   'Your Quick Directory',
+                  textAlign: TextAlign.left,
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 25,
