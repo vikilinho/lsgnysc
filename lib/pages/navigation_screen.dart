@@ -1,8 +1,8 @@
+import 'package:Lsgnysc/pages/homeScreen.dart';
+import 'package:Lsgnysc/pages/news_screen.dart';
+import 'package:Lsgnysc/pages/profile_screen.dart';
+import 'package:Lsgnysc/pages/report_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:lsgnysc/pages/homeScreen.dart';
-import 'package:lsgnysc/pages/news_screen.dart';
-import 'package:lsgnysc/pages/profile_screen.dart';
-import 'package:lsgnysc/pages/report_screen.dart';
 
 class NavigationScreen extends StatefulWidget {
   @override

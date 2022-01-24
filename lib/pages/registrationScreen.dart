@@ -1,8 +1,7 @@
+import 'package:Lsgnysc/pages/bvn_screen.dart';
+import 'package:Lsgnysc/pages/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:lsgnysc/pages/bvn_screen.dart';
-import 'package:lsgnysc/pages/login_screen.dart';
-import 'package:lsgnysc/pages/navigation_screen.dart';
 
 class RegistrationScreen extends StatefulWidget {
   @override

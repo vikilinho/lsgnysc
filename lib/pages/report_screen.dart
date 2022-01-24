@@ -1,7 +1,7 @@
+import 'package:Lsgnysc/pages/cds_report_page.dart';
+import 'package:Lsgnysc/pages/incidence_report_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:lsgnysc/pages/cds_report_page.dart';
-import 'package:lsgnysc/pages/incidence_report_page.dart';
 
 class ReportScreen extends StatefulWidget {
   @override

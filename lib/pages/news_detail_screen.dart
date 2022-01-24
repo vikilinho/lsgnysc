@@ -1,6 +1,6 @@
+import 'package:Lsgnysc/model/news_list.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:lsgnysc/model/news_list.dart';
 
 class NewsDetail extends StatelessWidget {
   final NewsList newsList;

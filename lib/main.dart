@@ -1,5 +1,5 @@
+import 'package:Lsgnysc/pages/landing_Screen.dart';
 import 'package:flutter/material.dart';
-import 'package:lsgnysc/pages/landing_Screen.dart';
 
 void main() {
   runApp(MyApp());
