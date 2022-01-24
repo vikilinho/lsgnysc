@@ -1,8 +1,8 @@
 import 'dart:ui';
 
-import 'package:Lsgnysc/components/navbar.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lsgnysc/components/navbar.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

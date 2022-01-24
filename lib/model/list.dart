@@ -1,4 +1,4 @@
-import 'package:Lsgnysc/model/news_list.dart';
+import 'package:lsgnysc/model/news_list.dart';
 
 final List<NewsList> news = [
   NewsList(

@@ -1,8 +1,8 @@
-import 'package:Lsgnysc/model/list.dart';
-import 'package:Lsgnysc/model/news_list.dart';
-import 'package:Lsgnysc/pages/news_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lsgnysc/model/list.dart';
+import 'package:lsgnysc/model/news_list.dart';
+import 'package:lsgnysc/pages/news_detail_screen.dart';
 
 class NewsScreen extends StatefulWidget {
   final List<NewsList> news;

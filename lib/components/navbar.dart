@@ -1,6 +1,6 @@
-import 'package:Lsgnysc/pages/fire_service_Screen.dart';
-import 'package:Lsgnysc/pages/hospital_screen.dart';
-import 'package:Lsgnysc/pages/police_screen.dart';
+import 'package:lsgnysc/pages/fire_service_Screen.dart';
+import 'package:lsgnysc/pages/hospital_screen.dart';
+import 'package:lsgnysc/pages/police_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
