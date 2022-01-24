@@ -17,137 +17,142 @@ class _LoginScreenState extends State<LoginScreen> {
         automaticallyImplyLeading: false,
         title: Text('Login Page'),
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            SizedBox(
-              height: MediaQuery.of(context).size.height * 0.1,
-            ),
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Text(
-                "Welcome back!",
-                style: GoogleFonts.mulish(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.green,
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                height: MediaQuery.of(context).size.height * 0.2,
+                child: Center(
+                  child: Image(image: AssetImage('images/logony.png')),
                 ),
               ),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Row(
+              Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Text(
+                  "Welcome back!",
+                  style: GoogleFonts.mulish(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.green,
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Row(
+                  children: [
+                    Text(
+                      "Login to your account.",
+                      style: GoogleFonts.mulish(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: MediaQuery.of(context).size.height * 0.02,
+              ),
+              Form(
+                  key: _formKey,
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: TextFormField(
+                            decoration: InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: 'State Code',
+                          hintText: 'Enter your state code',
+                        )),
+                      ),
+                      SizedBox(
+                        height: MediaQuery.of(context).size.height * 0.002,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: TextFormField(
+                            obscureText: true,
+                            decoration: InputDecoration(
+                              suffixIcon: Icon(Icons.visibility),
+                              border: OutlineInputBorder(),
+                              labelText: 'Password',
+                              hintText: 'Enter your password',
+                            )),
+                      ),
+                    ],
+                  )),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text(
-                    "Login to your account.",
-                    style: GoogleFonts.mulish(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: ButtonTheme(
+                        minWidth: 300,
+                        height: 50,
+                        // ignore: deprecated_member_use
+                        child: RaisedButton(
+                            color: Colors.green,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            onPressed: () async {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => NavigationScreen()),
+                              );
+                            },
+                            child: Text(
+                              "Login",
+                              style: GoogleFonts.mulish(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.w400),
+                            )),
+                      ),
                     ),
                   ),
                 ],
               ),
-            ),
-            SizedBox(
-              height: MediaQuery.of(context).size.height * 0.02,
-            ),
-            Form(
-                key: _formKey,
-                child: Column(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: TextFormField(
-                          decoration: InputDecoration(
-                        border: OutlineInputBorder(),
-                        labelText: 'State Code',
-                        hintText: 'Enter your state code',
-                      )),
-                    ),
-                    SizedBox(
-                      height: MediaQuery.of(context).size.height * 0.002,
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: TextFormField(
-                          obscureText: true,
-                          decoration: InputDecoration(
-                            suffixIcon: Icon(Icons.visibility),
-                            border: OutlineInputBorder(),
-                            labelText: 'Password',
-                            hintText: 'Enter your password',
-                          )),
-                    ),
-                  ],
-                )),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(12.0),
-                    child: ButtonTheme(
-                      minWidth: 300,
-                      height: 50,
-                      // ignore: deprecated_member_use
-                      child: RaisedButton(
-                          color: Colors.green,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10),
-                          ),
-                          onPressed: () async {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => NavigationScreen()),
-                            );
-                          },
-                          child: Text(
-                            "Login",
-                            style: GoogleFonts.mulish(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.w400),
-                          )),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      "Don't have an account?",
+                      style: GoogleFonts.mulish(
+                        fontSize: 16,
+                      ),
                     ),
                   ),
-                ),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    "Don't have an account?",
-                    style: GoogleFonts.mulish(
-                      fontSize: 16,
-                    ),
+                  SizedBox(
+                    width: 5,
                   ),
-                ),
-                SizedBox(
-                  width: 5,
-                ),
-                TextButton(
-                  style: ButtonStyle(),
-                  // onPressed: () => Get.toNamed(LOGIN_SCREEN),
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => RegistrationScreen()),
-                    );
-                  },
-                  child: Text("Register"),
-                )
-              ],
-            ),
-          ],
+                  TextButton(
+                    style: ButtonStyle(),
+                    // onPressed: () => Get.toNamed(LOGIN_SCREEN),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => RegistrationScreen()),
+                      );
+                    },
+                    child: Text("Register"),
+                  )
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
