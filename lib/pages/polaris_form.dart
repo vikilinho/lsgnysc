@@ -17,21 +17,44 @@ class _PolarisFormState extends State<PolarisForm> {
       body: SafeArea(
           child: Column(
         children: [
+          SizedBox(
+            height: 20,
+          ),
           Row(
             children: [
-              Container(
-                height: 120,
-                width: 200,
-                decoration: BoxDecoration(color: Colors.red),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: BoxDecoration(color: Colors.transparent),
+                    child: TextField(
+                      decoration: InputDecoration(
+                          border: OutlineInputBorder(),
+                          alignLabelWithHint: true,
+                          hintText: "Sex",
+                          label: Text("Gender")),
+                    ),
+                  ),
+                ),
               ),
               SizedBox(
                 width: 5,
               ),
-              Container(
-                height: 120,
-                width: 200,
-                decoration: BoxDecoration(color: Colors.red),
-              )
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: BoxDecoration(color: Colors.transparent),
+                    child: TextField(
+                      decoration: InputDecoration(
+                          border: OutlineInputBorder(),
+                          alignLabelWithHint: true,
+                          hintText: "Sex",
+                          label: Text("Gender")),
+                    ),
+                  ),
+                ),
+              ),
             ],
           )
         ],
