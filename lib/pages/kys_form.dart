@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lsgnysc/pages/navigation_screen.dart';
+import 'package:lsgnysc/pages/polaris_form.dart';
 
 class KYCScreen extends StatefulWidget {
   const KYCScreen({Key? key}) : super(key: key);
@@ -186,8 +187,7 @@ class _KYCScreenState extends State<KYCScreen> {
                     onPressed: () async {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(
-                            builder: (context) => NavigationScreen()),
+                        MaterialPageRoute(builder: (context) => PolarisForm()),
                       );
                     },
                     child: Row(

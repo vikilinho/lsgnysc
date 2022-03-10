@@ -10,6 +10,10 @@ class PolarisForm extends StatefulWidget {
 class _PolarisFormState extends State<PolarisForm> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("KYC Form"),
+      ),
+    );
   }
 }
