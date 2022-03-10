@@ -20,7 +20,17 @@ class _PolarisFormState extends State<PolarisForm> {
           Row(
             children: [
               Container(
-                decoration: BoxDecoration(),
+                height: 120,
+                width: 200,
+                decoration: BoxDecoration(color: Colors.red),
+              ),
+              SizedBox(
+                width: 5,
+              ),
+              Container(
+                height: 120,
+                width: 200,
+                decoration: BoxDecoration(color: Colors.red),
               )
             ],
           )
