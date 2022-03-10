@@ -2,6 +2,7 @@ import 'package:lsgnysc/pages/bvn_screen.dart';
 import 'package:lsgnysc/pages/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lsgnysc/pages/other_screens.dart';
 
 class RegistrationScreen extends StatefulWidget {
   @override
@@ -153,7 +154,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => BvnScreen()),
+                                      builder: (context) => OtherScreen()),
                                 );
                               },
                               child: Row(
