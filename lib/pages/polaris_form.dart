@@ -14,6 +14,18 @@ class _PolarisFormState extends State<PolarisForm> {
       appBar: AppBar(
         title: Text("KYC Form"),
       ),
+      body: SafeArea(
+          child: Column(
+        children: [
+          Row(
+            children: [
+              Container(
+                decoration: BoxDecoration(),
+              )
+            ],
+          )
+        ],
+      )),
     );
   }
 }
